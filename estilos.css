@@ -1,42 +1,87 @@
-h1{
-    color: 
- brown;
- font-size: 90px;
- font-family: 
- Arial, Helvetica, sans-serif
-
-}
-.subtitulo1 {
-    color:
-     rgb(46, 112, 55);
-     font-size: 50px;
-     text-align: center;
-     font-family: 
-     'Times New Roman', Times, serif
-}
-.subtitulo2 {
-    color: brown;
-    text-align: center;
-    font-size: 30px;
-}
-img{
-    width: 300px;
-    height: auto;
-}
-.IMAGEN1 {
-    width: 300px; 
-    height: auto;
-}
-.IMAGEN2 {
-    width: 400px;
-    height: auto;
-}
-nav ul {
-    list-style-type: none;
-    padding: 0%; 
+/* Reset de estilos básicos */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* Estilo del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Estilo del menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
 nav ul li {
     display: inline;
     margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo del contenedor principal */
+.contenedor {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contenedor .subtitulo {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Estilo del contenedor de imágenes */
+.contenedor-imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.contenedor-imagenes .imagen {
+    max-width: 30%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.contenedor-imagenes .imagen:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo del contenido */
+.contenido {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
