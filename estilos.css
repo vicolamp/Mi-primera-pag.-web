@@ -7,13 +7,16 @@
 
 /* Estilo del cuerpo de la página */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #d4d4d4;
     padding: 20px;
 }
 
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 /* Estilo del encabezado */
 header {
     background-color: #333;
